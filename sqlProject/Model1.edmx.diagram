@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0a7a14db7b3a4d50a7732268ccf29efc" Name="Diagram1">
+        <EntityTypeShape EntityType="project_online_examinationModel.choices" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_online_examinationModel.courses" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_online_examinationModel.Department" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_online_examinationModel.Exam" Width="1.5" PointX="4.5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_online_examinationModel.instructor" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_online_examinationModel.Questions" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_online_examinationModel.stud_course" Width="1.5" PointX="9.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_online_examinationModel.stud_exam" Width="1.5" PointX="9.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_online_examinationModel.student" Width="1.5" PointX="7.5" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_online_examinationModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="project_online_examinationModel.Topics" Width="1.5" PointX="3" PointY="16.625" IsExpanded="true" />
+        <AssociationConnector Association="project_online_examinationModel.FK_choices_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="project_online_examinationModel.FK__Questions__cours__7755B73D" ManuallyRouted="false" />
+        <AssociationConnector Association="project_online_examinationModel.FK__Topics__course_i__44CA3770" ManuallyRouted="false" />
+        <AssociationConnector Association="project_online_examinationModel.FK_Exam_courses" ManuallyRouted="false" />
+        <AssociationConnector Association="project_online_examinationModel.FK_stud_course_courses" ManuallyRouted="false" />
+        <AssociationConnector Association="project_online_examinationModel.FK_Department_instructor" ManuallyRouted="false" />
+        <AssociationConnector Association="project_online_examinationModel.FK_student_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="project_online_examinationModel.FK_stud_exam_Exam" ManuallyRouted="false" />
+        <AssociationConnector Association="project_online_examinationModel.FK_stud_exam_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="project_online_examinationModel.FK_stud_course_student" ManuallyRouted="false" />
+        <AssociationConnector Association="project_online_examinationModel.FK_stud_exam_student" ManuallyRouted="false" />
+        <AssociationConnector Association="project_online_examinationModel.instructor_course" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
